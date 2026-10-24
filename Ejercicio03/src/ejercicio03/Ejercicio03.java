@@ -15,8 +15,15 @@ public class Ejercicio03 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+        // Resolucion de problema
+        double variable1 = 25;
+        double variable2 = 15;
+        double variable3 = 8;
+        double variable4 = 49;
+        double variable5 = 2.5;
+        double resultado = (variable1 + variable2) / variable3
+            + Math.sqrt(variable4) + variable5;
+        System.out.println("el resultado es: " + resultado);
     }
     
 }
